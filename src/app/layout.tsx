@@ -10,8 +10,9 @@ import { ScrollToTopButton } from "@/components/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Harshal's Portfolio",
-  description: "Harshal's Personal Portfolio",
+  title: "Muhammad's Portfolio",
+  description:
+    "Muhammad Yuguda's portfolio of interactive websites, mobile applications, and games.",
 };
 
 export default function RootLayout({

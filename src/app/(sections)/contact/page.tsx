@@ -44,12 +44,12 @@ function ContactPage() {
   });
 
   const handleDownload = () => {
-    const resumeFilePath = "/resume.pdf";
+    const resumeFilePath = "/assets/resume.pdf";
     window.open(resumeFilePath, "_blank");
   };
-
+  
   const handleGmail = () => {
-    const gmailAddress = "shindeharshal009@gmail.com";
+    const gmailAddress = "myuguda175@gmail.com";
     const mailtoLink = `mailto:${gmailAddress}`;
     window.location.href = mailtoLink;
   };
@@ -98,66 +98,7 @@ function ContactPage() {
                 >
                   Get in Touch
                 </h1>
-
-                <div className="flex flex-wrap gap-x-4 justify-center items-center">
-                  <Link
-                    href="https://github.com/Harshal-7"
-                    target="_blank"
-                    className="flex items-center hover:scale-110 transition-transform duration-300"
-                  >
-                    <img
-                      src="/github.png"
-                      className="rounded-full h-9 mr-2 md:mr-6 sm:h-11"
-                      alt="github"
-                    />
-                  </Link>
-
-                  <Link
-                    href="https://www.linkedin.com/in/harshal-shinde-77a862210"
-                    target="_blank"
-                    className="flex items-center hover:scale-110 transition-transform duration-300"
-                  >
-                    <img
-                      src="/linkedin.png"
-                      className="h-9 mr-2 md:mr-6 sm:h-11"
-                      alt="linkdin"
-                    />{" "}
-                  </Link>
-
-                  <Link
-                    href="https://twitter.com/hscodez"
-                    target="_blank"
-                    className="flex items-center hover:scale-110 transition-transform duration-300"
-                  >
-                    <img
-                      src="/x2.png"
-                      className="h-9 mr-2 md:mr-6 sm:h-11"
-                      alt="x"
-                    />{" "}
-                  </Link>
-
-                  <Link
-                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shindeharshal009@gmail.com"
-                    target="_blank"
-                    className="flex items-center hover:scale-110 transition-transform duration-300 p-0"
-                  >
-                    <img
-                      src="/gmail.svg"
-                      className="h-9 mr-2 md:mr-6 sm:h-11"
-                      alt="gmail"
-                    />{" "}
-                  </Link>
-                </div>
-
-                <Button
-                  onClick={handleDownload}
-                  className="w-40 mt-4 px-3 py-5 font-bold text-center text-white bg-[#5148fc] rounded-lg hover:bg-[#443bff]"
-                >
-                  See My Resume
-                </Button>
-              </div>
-
-              {/* Bottom Form  */}
+                 {/* Bottom Form  */}
               <div className="min-w-full flex flex-col gap-8">
                 <div className="text-xl md:text-3xl mb-2 font-semibold text-center ">
                   <span>
@@ -193,7 +134,7 @@ function ContactPage() {
                   </span>{" "}
                   <br />
                 </div>
-                <Form {...form}>
+                {/* <Form {...form}>
                   <form
                     onSubmit={form.handleSubmit(onSubmit)}
                     className="space-y-6 w-2/3 self-center"
@@ -269,8 +210,68 @@ function ContactPage() {
                       )}
                     </Button>
                   </form>
-                </Form>
+                </Form> */}
               </div>
+
+                <div className="flex flex-wrap gap-x-4 justify-center items-center">
+                  <Link
+                    href="https://github.com/lil-ameer1981"
+                    target="_blank"
+                    className="flex items-center hover:scale-110 transition-transform duration-300"
+                  >
+                    <img
+                      src="/github.png"
+                      className="rounded-full h-9 mr-2 md:mr-6 sm:h-11"
+                      alt="github"
+                    />
+                  </Link>
+
+                  <Link
+                    href="https://www.linkedin.com/in/muhammad-yuguda"
+                    target="_blank"
+                    className="flex items-center hover:scale-110 transition-transform duration-300"
+                  >
+                    <img
+                      src="/linkedin.png"
+                      className="h-9 mr-2 md:mr-6 sm:h-11"
+                      alt="linkdin"
+                    />{" "}
+                  </Link>
+
+                  <Link
+                    href="https://x.com/lil_ameer81"
+                    target="_blank"
+                    className="flex items-center hover:scale-110 transition-transform duration-300"
+                  >
+                    <img
+                      src="/x2.png"
+                      className="h-9 mr-2 md:mr-6 sm:h-11"
+                      alt="x"
+                    />{" "}
+                  </Link>
+
+                  <Link
+                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=myuguda175@gmail.com"
+                    target="_blank"
+                    className="flex items-center hover:scale-110 transition-transform duration-300 p-0"
+                  >
+                    <img
+                      src="/gmail.svg"
+                      className="h-9 mr-2 md:mr-6 sm:h-11"
+                      alt="gmail"
+                    />{" "}
+                  </Link>
+                </div>
+
+                <Button
+                  onClick={handleDownload}
+                  className="w-40 mt-4 px-3 py-5 font-bold text-center text-white bg-[#5148fc] rounded-lg hover:bg-[#443bff]"
+                >
+                  See My Resume
+                </Button>
+              </div>
+
+             
             </div>
           </div>
         </div>

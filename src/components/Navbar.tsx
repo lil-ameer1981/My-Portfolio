@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="w-full flex flex-row items-center justify-between">
         <Link href="/" className="self-center">
           <h2 className={cn("text-2xl md:text-4xl", myFont.className)}>
-            Harshal Shinde
+            Muhammad Yuguda
           </h2>
         </Link>
 
