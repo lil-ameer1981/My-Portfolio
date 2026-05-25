@@ -22,7 +22,6 @@ export default function Home() {
       <div className="">
         <ContactPage />
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }
