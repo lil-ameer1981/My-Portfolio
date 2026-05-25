@@ -10,7 +10,7 @@ export default function PageLayout({
     <div>
       <Navbar />
       {children}
-      <Footer />
+    
     </div>
   );
 }
