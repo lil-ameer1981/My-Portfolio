@@ -17,16 +17,16 @@ const games = [
   },
   {
     title: "Flappy Legends",
-    desc: "A Flappy Bird-inspired game with football and character-themed gameplay.",
+    desc: "A Flappy Bird-inspired game with football and anime characters-themed gameplay.",
     img: "/assets/flappy.jpg",
-    liveLink: "https://emoji-tic-tac-toe-12.web.app/",
+    liveLink: "https://flappy--legends.web.app/",
     aspect: "portrait"
   },
   {
     title: "Dino Runner",
     desc: "A Flutter Flame take on the classic Chrome dinosaur runner.",
     img: "/assets/dino-runner.jpg",
-    liveLink: "https://flappy--legends.web.app/",
+    liveLink: "https://dino-runner1.web.app/",
     aspect: "portrait"
   },
   {
